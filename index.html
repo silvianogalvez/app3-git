@@ -1,0 +1,260 @@
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>Tercera  Aplicacion</title>
+
+    <!--grupo CSS-->
+    <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+    <link rel="stylesheet" href="css/tema-app3.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+    <!--grupo JavaScript-->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/acciones.js"></script>
+	<script src="phonegap.js"></script>
+	<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+  </head>
+
+ <body onLoad="MM_preloadImages('imagenes/defini2.jpg')">
+
+	<div data-role="page" id="Principal" data-theme="a">
+	  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" 	data-back-btn-theme="b">
+		<h1>CONTAMINACON DEL PLANETA</h1>
+	  </div>
+   
+	  <div>
+		<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+		<li class="ui-first-child ui-last-child">
+			<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>DEFINICION</h2>
+				<p>Definicion de la palabra contaminacion</p>
+			</a>
+		</li>
+		<li class="ui-first-child ui-last-child">
+			<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>TIPOS DE CONTAMINACION</h2>
+				<p>Diferentes tipos de contaminacion</p>
+			</a>
+		</li>
+		<li class="ui-first-child ui-last-child">
+			<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>CONSECUENCIAS DE LA CONTAMINACION</h2>
+				<p>Consecuencias</p>
+			</a>
+		</li>
+		<li class="ui-first-child ui-last-child">
+			<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>3 R</h2>
+				<p>Reusar,Resiclar,Reducir </p>
+			</a>
+		</li>
+		<li class="ui-first-child ui-last-child">
+			<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>MEDIDAS PREVENTIVAS</h2>
+				<p>Medidas preventivas de la contaminacion</p>
+			</a>
+		</li>
+        <li class="ui-first-child ui-last-child">
+	    <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>CONTAMINACION EN MI AL REDEDOR</h2>
+				<p>Contaminacion en mi cumunidad</p>
+			</a>
+		</li>
+		</ul>
+	</div>
+	<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+		<div>
+			<img src="imagenes/mdpi.png" width="46" height="46">
+		</div>
+		<div>
+			<h4>Aplicacion Tres</h4>
+			<h4>Silvano Galvez Segundo</h4>
+		</div>
+	 </div>
+	</div>
+    <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>DEFINICION</h1>
+       </div>
+       <div data-role="content" align="center">
+         <div>
+        <h2>La contaminación es la introducción de algún tipo de sustancia o energía que atentará contra el normal funcionamiento y equilibrio que ostentaba el medio inicialmente, provocando ademá
+         un daño casi irreversible.
+        </h2>
+        <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','imagenes/defini2.jpg',1)"><img src="imagenes/defini1.jpg" width="308" height="164" id="Image4"></a></p>
+         </div>
+        </div>
+        <div data-role="footer" data-theme="b" data-position="fixed">
+           <h4>Aplicacion Tres, SGS</h4>
+          </div>
+         </div>
+        </div> 
+        
+      <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>TIPOS DE CONTAMINACION</h1>
+       </div>
+     <div data-role="collapsible" data-content-theme="false">
+     	<h1>CONTAMINACION DEL AGUA</h1> 
+        <p>Como su nombre lo sugiere, “Contaminación del agua” es el tipo de contaminación que supone la contaminación distintos cuerpos de agua. Varias criaturas acuáticas dependen de estos cuerpos de agua y sus características naturales nutritivos para apoyar su vida.
+Contaminación del Agua </p>
+     <img src="imagenes/contagua1.jpg">
+        </div>
+    <div data-role="collapsible" data-content-theme="false">
+     	<h1>CONTAMINACION DEL SUELO</h1>
+        <p>La contaminación del suelo afecta negativamente a los seres humanos como a los animales, ya que da lugar a disminución de la producción agrícola y la consecuente escasez de alimentos. Los fertilizantes químicos y pesticidas que se utilizan para aumentar la producción agrícola no sólo degradan el suelo debido a su uso excesivo, sino que también entran en la cadena alimentaria y afectan la salud de las personas que consumen el alimento.</p>
+        <img src="imagenes/cantasuelo.jpg">
+        </div>
+           <div data-role="collapsible" data-content-theme="false">
+     	<h1>CONTAMINACION DEL AIRE</h1>
+        <p>La contaminación del aire es la fuente de smog, lluvia ácida y el posible calentamiento mundial. Smog se clasifica como niebla fotoquímica o industrial. Niebla fotoquímica, a menudo se evidencia por la nube marrón que cuelga sobre ciudades densamente pobladas, se crea por la interacción de la luz solar con moléculas de contaminantes primarios. La reacción química resultante es tóxico para los seres humanos y animales. El smog industrial se caracteriza por la niebla gris-marrón que se cierne sobre zonas industriales y se atribuye a la interacción de la luz solar, las moléculas de aire y dióxido de azufre. El resultado es, de nuevo, el aire tóxico.</p>
+        <img src="imagenes/contaire.jpg">
+        </div>
+        <div data-role="footer" data-theme="b" data-position="fixed">
+           <h4>Aplicacion Tres, SGS</h4>
+          </div>
+         </div>
+        </div>
+        
+     <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>CONSECUENCIAS DE LA CONTAMINACION</h1>
+       </div>
+         <div data-role="collapsible" data-content-theme="false">
+     	<h1>CALENTAMIENTO GLOBAL</h1>
+        <p>El “efecto invernadero” es el calentamiento que se produce cuando ciertos gases de la atmósfera de la Tierra retienen el calor. Estos gases dejan pasar la luz pero mantienen el calor como las paredes de cristal de un invernadero.
+
+En primer lugar, la luz solar brilla en la superficie terrestre, donde es absorbida y, a continuación, vuelve a la atmósfera en forma de calor. En la atmósfera, los gases de invernadero retienen parte de este calor y el resto se escapa al espacio. Cuantos más gases de invernadero, más calor es retenido.
+
+Los científicos conocen el efecto invernadero desde 1824, cuando Joseph Fourier calculó que la Tierra sería más fría si no hubiera atmósfera. Este efecto invernadero es lo que hace que el clima en la Tierra sea apto para la vida. Sin él, la superficie de la Tierra sería unos 60 grados Fahrenheit más fría. En 1895, el químico suizo Svante Arrhenius descubrió que los humanos podrían aumentar el efecto invernadero produciendo dióxido de carbono, un gas de invernadero. Inició 100 años de investigación climática que nos ha proporcionado una sofisticada comprensión del calentamiento global.
+
+Los niveles de gases de efecto invernadero (GEI) han aumentado y descendido durante la historia de la Tierra pero han sido bastante constantes durante los últimos miles de años. Las temperaturas medias globales se han mantenido bastante constantes también durante este periodo de tiempo hasta hace poco. A través de la combustión de combustibles fósiles y otras emisiones de GEI, los humanos están aumentando el efecto invernadero y calentando la Tierra.
+
+Los científicos a menudo utilizan el término “cambio climático” en lugar de calentamiento global. Esto es porque, dado que la temperatura media de la Tierra aumenta, los vientos y las corrientes oceánicas mueven el calor alrededor del globo de modo que pueden enfriar algunas zonas, calentar otras y cambiar la cantidad de lluvia y de nieve que cae. Como resultado, el clima cambia de manera diferente en diferentes áreas. </p>
+    <img src="imagenes/calentamiento.jpg">
+        </div>
+        <div data-role="footer" data-theme="b" data-position="fixed">
+           <h4>Aplicacion Tres, SGS</h4>
+          </div>
+         </div>
+        </div>  
+        
+     <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>3 R</h1>
+       </div>
+      <div data-role="collapsible" data-content-theme="false">
+     	<h1>REDUCE</h1>
+        <p>Cuando hablamos de reducir lo que estamos diciendo es que se debe tratar de reducir o simplificar el consumo de los productos directos, o sea, todo aquello que se compra y se consume, ya que esto tiene una relación directa con los desperdicios, y a la vez con nuestro bolsillo. Por ejemplo, en vez de comprar 6 botellas pequeñas de una bebida, se puede conseguir una o dos grandes, teniendo la misma cantidad de producto pero menos envases, no pedir bolsas en los supermercados a menos que sea necesario, reducir el consumo de papel, etc. </p>
+      <img src="imagenes/reducir.jpg">
+        </div>
+         <div data-role="collapsible" data-content-theme="false">
+     	<h1>RECICLAR</h1>
+        <p>La mayoría de los materiales que usamos pueden ser reciclados y usados en otras aplicaciones; materiales como el vidrio, pueden reciclarse 40 veces por ejemplo, el plástico se puede reciclar calentándolo hasta que se funda dándole una nueva forma. Es nuestro compromiso reciclar lo mayor posible y disminuir la producción de basura "nueva". </p>
+        <img src="imagenes/reciclar.jpg">
+        </div>
+         <div data-role="collapsible" data-content-theme="false">
+     	<h1>REUTILIZA</h1>
+        <p>Al decir reutilizar, nos estamos refiriendo a poder volver a utilizar las cosas, dándole una vida útil a embalajes o materiales que usamos día a día y darles un uso lo más prolongado posible antes de que llegue la hora de deshacernos de ellos definitivamente, disminuyendo así el volumen de la basura y reduciendo el impacto en el medio ambiente. </p>
+        <img src="imagenes/reutilizar.jpg">
+        </div>
+        <div data-role="footer" data-theme="b" data-position="fixed">
+           <h4>Aplicacion Tres, SGS</h4>
+          </div>
+         </div>
+        </div> 
+        
+         <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>MEDIDAS PREVENTIVAS</h1>
+       </div>
+          <div data-role="collapsible" data-content-theme="false">
+     	<h1>MEDIDAS ASEGUIR</h1>
+        <a href="http://ecoosfera.com" target="_self">ir ala pagina<img src="imagenes/enlace.jpg"></a>
+        </div>
+            <div data-role="footer" data-theme="b" data-position="fixed">
+           <h4>Aplicacion Tres, SGS</h4>
+          </div>
+         </div>
+        </div> 
+        
+   <div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>CONTAMINACION AL MI AL REDEDOR</h1>
+      
+       </div>
+        <div data-role="content" align="center">
+  
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/flores.jpg" alt="flores" title="flores" id="wows1_0"/></li>
+		<li><img src="data1/images/flores2.jpg" alt="flores2" title="flores2" id="wows1_1"/></li>
+		<li><img src="data1/images/flores3.jpg" alt="flores3" title="flores3" id="wows1_2"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/flores4.jpg" alt="http://wowslider.net/" title="flores4" id="wows1_3"/></a></li>
+		<li><img src="data1/images/flores5.jpg" alt="flores5" title="flores5" id="wows1_4"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="flores"><span><img src="data1/tooltips/flores.jpg" alt="flores"/>1</span></a>
+		<a href="#" title="flores2"><span><img src="data1/tooltips/flores2.jpg" alt="flores2"/>2</span></a>
+		<a href="#" title="flores3"><span><img src="data1/tooltips/flores3.jpg" alt="flores3"/>3</span></a>
+		<a href="#" title="flores4"><span><img src="data1/tooltips/flores4.jpg" alt="flores4"/>4</span></a>
+		<a href="#" title="flores5"><span><img src="data1/tooltips/flores5.jpg" alt="flores5"/>5</span></a>
+	</div>
+    </div>
+    <div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</div>
+    <div data-role="collapsible" data-content-theme="false">
+     	<h1>MIS PROPUESTAS</h1>
+         <p>Pues mi propusta seria que empesemos aser consientes de lo que estamos haciendo mal
+         en nuetro planeta pues por que lo estamos destruyendo y no emos encontrado otro planeta
+         con las condiciones perfectas para poder mudarnos </p>
+         <p>1.-Empesar aseparar la vasura</p>
+         <p>2.-Pedirles a las personas cuando compre algun alimento no tiren lavasura en la calle</p>
+         <p>3.-Multar alas personas  que tiren vasura en la calle</p>
+        </div>
+
+        <div data-role="footer" data-theme="b" data-position="fixed">
+           <h4>Aplicacion Tres, SGS</h4>
+          </div>
+         </div>
+        </div> 
+ 
+        
+        
+              
+                    
+</body>
+</html>
